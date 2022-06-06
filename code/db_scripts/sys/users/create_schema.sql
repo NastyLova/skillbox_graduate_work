@@ -1,0 +1,8 @@
+-- Создание схемы (даю все гранты, чтобы не было далее проблем при создании объектов)
+CREATE USER TAXI_LOVAKOVA
+  IDENTIFIED BY TAXI_LOVAKOVA
+  DEFAULT TABLESPACE SYSAUX
+  TEMPORARY TABLESPACE TEMP
+  ACCOUNT UNLOCK;
+  
+GRANT ALL PRIVILEGES TO TAXI_LOVAKOVA;
